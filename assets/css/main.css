@@ -72,6 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2656,13 +2657,13 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 1rem 1.5rem;
+			margin: 20px 20px 20px 20px;
 			top: 0.25rem;
 		}
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2rem 0;
+			margin: 5 5rem 5rem 5;
 			width: 100%;
 		}
 
@@ -3996,7 +3997,7 @@ input, select, textarea {
 			-moz-object-position: right;
 			-webkit-object-position: right;
 			-ms-object-position: right;
-			object-position: right;
+			object-position: center;
 		}
 
 /* Banner (style4) */
